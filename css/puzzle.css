@@ -1,0 +1,201 @@
+body {
+    background: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1300px auto;
+    text-align: center;
+    font-family: "Century Gothic";
+}
+#content {
+    border: pink solid 1px;
+    border-radius: 30px;
+    position: relative;
+    margin-left: auto;
+     margin-right: auto;
+    background-color: rgba(255, 243, 244, 0.8);
+    width: 600px;
+    height: 630px;
+}
+h1 {
+    color: #F57CA3;
+    font-family:  "Century Gothic";
+    font-size: 60px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#gamePart  {
+     position: relative;
+     top: 75px;
+     margin-left: auto;
+     margin-right: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 0 1px 10px 1px #F36EA2;
+    background-image: url(../img/puzzle.jpg);
+}
+
+.part {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0px 1px 1px #F36EA2 inset;
+    background: url(peiqi.png) 400px 400px;
+    background-size: 400px auto;
+    z-index: 0;
+}
+.part:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#Tlabel, #Tused, #Slabel, #Sused  {
+    float: top;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 50px;
+    padding:5px;
+    margin-top: 10px;
+    color: #FEF2F3;
+    background-color:#FF82AE;
+    border-radius: 10px;
+}
+#Tlabel {
+    left: 150px;
+}
+#Tused {
+    left: 220px;
+    color: #F25A95;
+    background-color:#FEF2F3;
+}
+#Slabel {
+    right: 220px;
+}
+#Sused {
+    right: 150px;
+    color: #F25A95;
+    background-color:#FEF2F3;
+}
+
+button {
+    outline: none;
+    background-color: #FAC9D5;
+    color: #FE569B;
+    font-family: "Century Gothic";
+    border-radius: 10px;
+    border-style: none;
+    width: 80px;
+    padding:5px;
+    margin: 5px;
+    position: absolute;
+
+}
+
+#start, #reset {
+    font-size: 20px;
+    height: 37px;
+    background-color:#FDBAD1;
+    color: #F35695;
+    transition: 0.3s;
+}
+#start:hover, #reset:hover {
+    background-color:#F57CA3;
+    color: #FDF2F6;
+    transition: 0.3s;
+}
+#start {
+    top: 70px;    
+    left: 100px;
+}
+#reset {
+    top: 115px;    
+    left: 100px;
+}
+#easy ,#medium,#difficult {
+    height: 25px;
+    right: 100px;
+    top: 130px;
+    transition: 0.3s;
+}
+
+#easy {
+    right: 100px;
+    top: 70px;
+    background-color: #FAF0F1;
+}
+#easy:hover {
+
+    background-color:#f9e0e9;
+    transition: 0.3s;
+}
+#medium {
+    right: 100px;
+    top: 100px;
+    background-color:#FDBAD1;
+}
+#medium:hover {
+    color: #FCE4EB;
+    background-color: #f9b3cb;
+    transition: 0.3s;
+}
+#difficult {
+    right: 100px;
+    top: 130px;
+    color:  #FAF0F1;
+    background-color: #FE86AF;
+}
+#difficult:hover {
+    background-color: #f975a1;
+    transition: 0.3s;
+}
+#info {
+    text-align: center;
+    width:300px;
+    height: 100px;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 10px #FE86AF solid;
+    box-shadow: 0 1px 10px 5px #F85997;
+    border-radius: 10px;
+    background-color: #fed4e7;
+    z-index: 2;
+}
+
+#play, #alertWindow {
+    color: #F15994;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+    transition: 0.3s;
+}
+
+
+#play:hover {
+    background-color: #f9b3cb;
+    transition: 0.3s;
+}
+img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 1px 5px 5px #f9b3cb;
+    margin: 10px;
+    transition: 0.5s;
+}
+img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+#picture {
+    position: relative;
+    top: 150px;
+}
