@@ -6,7 +6,7 @@ var start = 0;
 var time = 0;
 var width = 400/totalRow;
 var play = 0;
-var pic = "../img/p1.jpg";
+var pic = "img/p1.jpg";
 $(document).ready(function(){
     $("#play").click(function () {
         if(play == 0) {
